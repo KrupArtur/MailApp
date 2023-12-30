@@ -18,4 +18,5 @@ module com.test.jfx {
     opens com.test.jfx.controller to javafx.fxml;
     exports com.test.jfx.view;
     opens com.test.jfx.view to javafx.fxml;
+    opens com.test.jfx.model;
 }
